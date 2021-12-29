@@ -96,7 +96,7 @@
             [
                 "To be continued...",
                 "我们之间的故事不会停止，仍将继续...",
-                "<embed src='img/59707.MP4' height='320' width='200'>"
+                "<video height='320' width='200' autoplay='autoplay' controls> <source src='img/59707.MP4' type='video/mp4'>"              
             ]
         ]
     }],
