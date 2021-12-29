@@ -62,7 +62,7 @@
                 getRandomMsg(dialog.details)
                     .forEach(content => {
                         this.msgChain = this.msgChain
-                            .then(() => delay(700))
+                            .then(() => delay(1200))
                             .then(() => this.sendMsg(content, AUTHOR.AUTHOR));
                     });
 
@@ -100,7 +100,7 @@
                     this.markMsgSize(msg);
                     setTimeout(updateScroll);
 
-                    return delay(Math.min(100 * length, 2000))
+                    return delay(Math.min(1000, 2000))
                         .then(() => {
                             return this.markMsgSize(msg, content);
                         })
